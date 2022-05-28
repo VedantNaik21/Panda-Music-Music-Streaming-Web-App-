@@ -1,0 +1,55 @@
+.sidebarOption{
+    display:flex;
+    color:black;
+    height:40px;
+    cursor:pointer;
+transition: 200ms color ease-in;
+align-items: center;
+margin-left: 10px;
+
+}
+
+.sidebarOption:hover{
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+      );
+      border-radius: 10px;
+}
+
+
+.sidebarOption_icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebarOption>p{
+    font-size:14px;
+    margin-left: 18px;
+}
+
+/* .sidebarOption>p:hover{
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+      );
+      border-radius: 10px;
+} */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* a:hover{
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.2)
+      );
+      border-radius: 10px;
+} */
+
+

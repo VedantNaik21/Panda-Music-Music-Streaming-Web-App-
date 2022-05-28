@@ -1,0 +1,70 @@
+.artists{
+    overflow-y: overlay;
+    color: black;
+    flex:0.85;
+    
+}
+
+.artists >h1{
+    margin: 30px 20px 15px;
+}
+
+.middle{
+    position:relative;
+   padding-left: 18px;
+}
+
+.top_artists{
+    display: flex;
+    position:relative;
+padding-top: 20px;
+}
+
+
+
+
+.SongRow_info >p{
+    color: black;
+}
+
+.Recent_Row{
+    color:black;
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 20px 0px;
+    overflow-y: overlay;
+}
+
+.Recent_Info{
+    color: black;
+}
+
+.Recent_album{
+    height: 40px;
+    width: 40px;
+}
+
+.Recent_info{
+    margin-left: 10px;
+    }
+    
+    .Recent_info > h1{
+    font-size: 16px;
+    }
+    
+    .Recent_info >p{
+    font-size: 14px;
+    margin-top: 3px;
+    color: black;
+    }
+
+.recently_played{
+    overflow-y: overlay;
+}
+
+    .recently_played >h1{
+           margin: 15px;
+    }
+
+  
